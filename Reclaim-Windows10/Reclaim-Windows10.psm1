@@ -337,7 +337,8 @@ Function Reclaim-WindowsInfoSec() {
 			"AddPhotoViewerOpenWith",       # "RemovePhotoViewerOpenWith",
 			# "UninstallPDFPrinter",        # "InstallPDFPrinter",
 			"UninstallXPSPrinter",          # "InstallXPSPrinter",
-			"RemoveFaxPrinter",             # "AddFaxPrinter",
+			"RemoveFaxPrinter"
+			#,             # "AddFaxPrinter",
 		
 			### Server Specific Tweaks ###
 			# "HideServerManagerOnLogin",   # "ShowServerManagerOnLogin",
