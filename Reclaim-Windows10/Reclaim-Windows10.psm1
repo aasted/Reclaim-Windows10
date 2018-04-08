@@ -4,7 +4,7 @@
 # Tweaked Win10 Initial Setup Script
 # Primary Author: Disassembler <disassembler@dasm.cz>
 # Modified by: alirobe <alirobe@alirobe.com> based on my personal preferences.
-# Version: 2.14.1, 2018-04-07
+# Version: 2.14.2, 2018-04-08
 # Primary Author Source: https://github.com/Disassembler0/Win10-Initial-Setup-Script
 # Tweaked Source: https://gist.github.com/alirobe/7f3b34ad89a159e6daa1/
 # Tweak difference:
@@ -352,8 +352,8 @@ Function Reclaim-WindowsInfoSec() {
 			# "UnpinTaskbarIcons",
 		
 			### Auxiliary Functions ###
-			"WaitForKey",
-			"Restart"
+			# "WaitForKey",
+			# "Restart"
 		)
 	)
 
