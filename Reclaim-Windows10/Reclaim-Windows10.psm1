@@ -109,11 +109,11 @@ Function Reclaim-Windows10() {
 			# "DisableFastStartup",         # "EnableFastStartup",
 	
 			### UI Tweaks ###
-			# "DisableActionCenter",          # "EnableActionCenter",
+			"DisableActionCenter",          # "EnableActionCenter",
 			# "DisableLockScreen",            # "EnableLockScreen",
 			# "DisableLockScreenRS1",       # "EnableLockScreenRS1",
 			# "HideNetworkFromLockScreen",    # "ShowNetworkOnLockScreen",
-			# "HideShutdownFromLockScreen",   # "ShowShutdownOnLockScreen",
+			"HideShutdownFromLockScreen",   # "ShowShutdownOnLockScreen",
 			"DisableStickyKeys",            # "EnableStickyKeys",
 			"ShowTaskManagerDetails"        # "HideTaskManagerDetails",
 			"ShowFileOperationsDetails",    # "HideFileOperationsDetails",
@@ -133,7 +133,7 @@ Function Reclaim-Windows10() {
 	
 			### Explorer UI Tweaks ###
 			"ShowKnownExtensions",          # "HideKnownExtensions",
-			# "ShowHiddenFiles",              # "HideHiddenFiles",
+			"ShowHiddenFiles",              # "HideHiddenFiles",
 			# "HideSyncNotifications"         # "ShowSyncNotifications",
 			# "HideRecentShortcuts",          # "ShowRecentShortcuts",
 			"SetExplorerThisPC",            # "SetExplorerQuickAccess",
@@ -157,7 +157,7 @@ Function Reclaim-Windows10() {
 			# "DisableThumbsDB",              # "EnableThumbsDB",
 	
 			### Application Tweaks ###
-			# "DisableOneDrive",              # "EnableOneDrive",
+			"DisableOneDrive",              # "EnableOneDrive",
 			# "UninstallOneDrive",            # "InstallOneDrive",
 			# "UninstallMsftBloat",           # "InstallMsftBloat",
 			"UninstallThirdPartyBloat",     # "InstallThirdPartyBloat",

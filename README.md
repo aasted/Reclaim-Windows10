@@ -1,3 +1,5 @@
+Aasted: Run win10.ps1 to clean up windows 10 with the settings I used in 2023.
+
 ## Description
 
 This is a PowerShell script for automation of routine tasks done after fresh installations of Windows 10 and Windows Server 2016. This is by no means any complete set of all existing Windows tweaks and neither is it another "antispying" type of script. It's simply a setting which I like to use and which in my opinion make the system less obtrusive.
